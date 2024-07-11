@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "test": "jest --watchAll"
+    "android": "expo run:android",
+    "test": "jest --watchAll",
+    "ios": "expo run:ios"
   },
   "jest": {
     "preset": "jest-expo"
